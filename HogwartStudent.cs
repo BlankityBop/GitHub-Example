@@ -1,4 +1,4 @@
-internal abstract class HogwartStudent
+public abstract class HogwartStudent
 {
 
     public abstract string Name { get; }
