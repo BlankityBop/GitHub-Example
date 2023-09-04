@@ -4,10 +4,10 @@ public class Program{
 
     static void Main(){
         HogwartsStudent[] hogwartsStudents = {
-           new HogwartsStudentCallan(),
-           new HogwartsStudentErin(),
-           new HogwartsStudentJacob(),
-           new HogwartsStudentSumen(),
+            new HogwartsStudentCallan(),
+            new HogwartsStudentErin(),
+            new HogwartsStudentJacob(),
+            new HogwartsStudentSumen()
         };
 
         foreach(HogwartsStudent s in hogwartsStudents){
