@@ -35,7 +35,7 @@ public abstract class HogwartStudent
     protected abstract string CastSpell();
 }
 
-internal enum House
+public enum House
 {
     Gryffindor,
     Hufflepuff,
