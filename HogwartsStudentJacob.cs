@@ -24,7 +24,7 @@ using System.Threading.Tasks;
         }
         protected override string CastSpell()
         {
-            s += " \n None, there is an intercontinental ballistic missle heading to your address in 5 secs ";
+            s = " \n None, there is an intercontinental ballistic missle heading to your address in 5 secs ";
             return s;
         }
 
