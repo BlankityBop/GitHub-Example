@@ -1,18 +1,21 @@
-abstract class HogwartStudent{
+internal abstract class HogwartStudent
+{
 
     public abstract string Name { get; }
     public int HitPoints { get; private set; }
     public int Defense { get; private set; }
     public House House { get; private set; }
 
-    public HogwartStudent(int hitPoints, int defense, House house){
+    public HogwartStudent(int hitPoints, int defense, House house)
+    {
         HitPoints = hitPoints;
         Defense = defense;
         House = house;
 
     }
 
-    public override string ToString(){
+    public override string ToString()
+    {
         string s = "STATS \n" + "--------------------\n";
         s += "Student Name: " + Name + "\n";
         s += "Hit Points: " + HitPoints + "\n";
@@ -24,7 +27,7 @@ abstract class HogwartStudent{
 
         s += "CAST SPELL \n" + "--------------------\n";
         s += CastSpell() + "\n\n";
-        
+
         return s;
     }
 
@@ -32,7 +35,8 @@ abstract class HogwartStudent{
     protected abstract string CastSpell();
 }
 
-enum House{
+internal enum House
+{
     Gryffindor,
     Hufflepuff,
     Ravenclaw,
